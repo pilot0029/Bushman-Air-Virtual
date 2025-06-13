@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Application</title>
+    </head>
+<body>
+    <img src="../images/Bushman Airways logo design.jpg" height="150" alt="Bushman Airways Logo"/>
+    <h1>Application</h1>
+    <form>
+        <ol>
+            <li><h3>Full Name*</h3></li>
+            <input type="text" name="full_name" id="full_name" required>
+
+            <li><h3>VATSIM CID (Recomended)</h3></li>
+            <input type="number" name="vatsim_cid" id="vatsim_cid">
+
+            <li><h3>Do you have an FSCharter account?*</h3></li>
+            <input type="radio" name="fscharter_account" value="Yes" required> Yes<br>
+            <input type="radio" name="fscharter_account" value="No" required> No<br>
+
+            <li><h3>FSCharter Username*</h3></li>
+            <input type="text" name="fscharter_username" id="fscharter_username" required>
+
+            <li><h3>FSHub account? (Opptional, but recomended)</h3></li>
+            <input type="radio" name="fshub_account" value="Yes"> Yes<br>
+            <input type="radio" name="fshub_account" value="No"> No<br>
+
+            <li><h3>Which Simulators do you use?*</h3></li>
+            <input type="checkbox" name="simulators" value="MSFS2020"> Microsoft Flight Simulator 2020<br>
+            <input type="checkbox" name="simulators" value="MSFS2024"> Microsoft Flight Simulator 2024<br>
+            <input type="checkbox" name="simulators" value="FSX"> Microsoft Flight Simulator X<br>
+            <input type="checkbox" name="simulators" value="XP11"> X-Plane 11<br>
+            <input type="checkbox" name="simulators" value="XP12"> X-Plane 12<br>
+            <input type="checkbox" name="simulators" value="P3D"> Prepar3D<br>
+
+            <li><h3>How can we contact you (e.g., Discord Username)*</h3></li>
+            <input type="text" name="contact" id="contact" required>
+
+            <li><h3>Approximate Flight Sim hours (opptional, but recomended for completing flights)</h3></li>
+            <input type="number" name="flight_hours" id="flight_hours">
+
+            <li><h3>Are you in another Virtual Airline? (opptional)</h3></li>
+            <input type="radio" name="other_va" value="Yes"> Yes<br>
+            <input type="radio" name="other_va" value="No"> No<br>
+
+            <li><h3>Favourite Aircraft in Fleet for assignment (Optional)</h3></li>
+            <input type="text" name="favourite_aircraft" id="favourite_aircraft">
+
+            <li><h3>How did you hear about us? (Optional)</h3></li>
+            <input type="text" name="referral" id="referral">
+        </ol>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
