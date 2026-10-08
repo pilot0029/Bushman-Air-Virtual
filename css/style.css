@@ -1,0 +1,31 @@
+.logo {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 50px;
+    bottom: 70px;
+}
+h1 {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 60px;
+    position: relative;
+    left: 10%;
+    top: 120px
+}
+.apply {
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.differentVA {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.about {
+    font-size: medium;
+}
